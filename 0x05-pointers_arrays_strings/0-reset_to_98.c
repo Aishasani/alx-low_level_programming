@@ -1,13 +1,11 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * reset_to_98 - reset the value of n to 98
- * @n: pointer to the input number n
+ * reset_to_98 - reset the address of n to 98
+ * @n: input number n
  */
 void reset_to_98(int *n)
 {
-    if (n != NULL)
-    {
-        *n = 98;
-    }
+	*n = 98;
 }
